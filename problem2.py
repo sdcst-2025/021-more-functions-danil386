@@ -20,3 +20,16 @@ assert triangle(5,15,12) == 3
 assert triangle(1,1,4) == 0  
 (2 points)
 """
+
+def triangle():
+    return
+
+def tests():
+    assert triangle(12,5,13) == 2     
+    assert triangle(5,3,3) == 3  
+    assert triangle(5,15,12) == 3  
+    assert triangle(1,1,4) == 0  
+
+
+if __name__== "__main__":
+    tests()
