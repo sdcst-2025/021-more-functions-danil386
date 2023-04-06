@@ -25,5 +25,5 @@ def tests():
     assert round(population(1000,.05, 5)) == 1276
     assert round(population(1000,.02, 20)) == 1486
     assert equal(1000,.05,2000,.06) == None
-    assert round(equal(1000,.05,2000,.06)) == 35
+    assert round(equal(1000,.03,2000,.01)) == 35
     
