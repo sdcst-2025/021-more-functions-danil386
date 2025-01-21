@@ -1,7 +1,7 @@
 #!python3
 """
-Create a function that calculates the amount of compound interest 
-earned.
+Create a function that calculates the total amount that an investment
+is worth when earning compound interest
 t = time in years
 P = amount invested
 n = # of compounding periods per year (how often interest is calculated)
